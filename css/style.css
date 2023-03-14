@@ -467,11 +467,16 @@ p {
 	height: 200px;
 	padding: 7px;
 	overflow: hidden;
-	transform: translateY(-50%);
+	/* transform: translateY(-50%); */
 	position: absolute;
-	top: 50%;
+	top: 16%;
 	right: 6%;
 	z-index: 1;
+	/* border-radius: 50%; */
+	transition: 1s all ease-in-out;
+}
+.email-signature .signature-img:hover {
+	transform: rotate(359deg);
 }
 .email-signature .signature-img img {
 	width: 100%;
@@ -692,7 +697,7 @@ h1 a:hover {
 }
 .tal3 a h2 {
 	text-align: center;
-	color: #eeac00;
+	color: #feedab;
 }
 
 .text-ban4 h4 {
